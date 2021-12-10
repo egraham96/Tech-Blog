@@ -1,7 +1,7 @@
 # Homework Assignment 14-TechBlog
 
 ## Description:
-This week's homework required us to refactor an e-commerce website built with React so that it uses React Redux. It allows the user to create a profile, login, add items to a shopping cart, and purchase items.
+This application is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This application adheres to the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
 
 ## Installation Instructions:
