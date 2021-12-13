@@ -1,0 +1,17 @@
+[
+    {
+      "title": "My First Post!",
+      "post_content": "Welcome y'all!",
+      "user_id": "1"
+    },
+    {
+      "title": "Learning MongoDB",
+      "post_content": "Trying to learn MongoDB, any tips?",
+      "user_id": "2"
+    },
+    {
+      "title": "Hi everyone!?",
+      "post_content": "Are you reading this?",
+      "user_id": "3"
+    }
+]

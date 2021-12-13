@@ -1,0 +1,64 @@
+body {font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 24px;}
+
+
+/* The navigation bar */
+.navbar {
+    background-color: lightpink;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:30px;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: greenyellow;
+  }
+  
+  .display {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 40px; 
+    width: 100%; /* Full width */
+    float: left;
+    display: block;
+    color: lightsteelblue;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 150px; /* Add a top margin to avoid content overlay */
+  }
+  
+  .project:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .no-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+    padding: 14px 16px;
+    float: right;
+  }
+  
+  .no-button:hover {
+    color: #065b83;
+    text-decoration: underline;
+  }
