@@ -1,12 +1,15 @@
 body {font-family:Verdana, Geneva, Tahoma, sans-serif;
 font-size: 24px;}
 
+/*Tech Blog Header*/
+header{top:0px;
+margin:auto;}
+
 
 /* The navigation bar */
 .navbar {
     background-color: lightpink;
     position: fixed; 
-    top: 0; 
     width: 100%; 
   }
   
@@ -27,27 +30,17 @@ font-size: 24px;}
     color: greenyellow;
   }
   
-  .display {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 40px; 
-    width: 100%; /* Full width */
-    float: left;
-    display: block;
-    color: lightsteelblue;
-  }
-  
+
   /* Main content */
   .main {
-    margin-top: 150px; /* Add a top margin to avoid content overlay */
+    margin-top: 200px;
   }
   
   .project:not(:last-child) {
     border-bottom: 1px solid #ccc;
   }
   
-  .no-button {
+  .button {
     background: none;
     border: none;
     cursor: pointer;
@@ -58,7 +51,7 @@ font-size: 24px;}
     float: right;
   }
   
-  .no-button:hover {
+  .button:hover {
     color: #065b83;
     text-decoration: underline;
   }

@@ -7,9 +7,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tech Blog</title>
-  <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
+
+<header><p id="header">The Tech Blog</p></header>
 
 <body>
   <div class="navbar">
@@ -17,15 +18,10 @@
     <a href="/dashboard">Dashboard</a>
     <a href="/login">Login</a>
     {{#if logged_in}}
-    <button class="no-button" id="logout">Logout</button>
+    <button class="button" id="logout">Logout</button>
     {{/if}}
   </div>
-  <div class="display">
-    <p id="currentTab">The Tech Blog</p>
-  </div>
     <main class="main">
-        <div class="flex-column justify-space-around">
-              <main class="container container-fluid mt-5">
                 <!-- Render the sub layout -->
                 {{{ body }}}
               </main>
